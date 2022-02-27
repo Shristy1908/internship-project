@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    margin: 20px 0;
+}
+a{
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 4x;
+    cursor: pointer;
+    color: rgb(44, 43, 43);            
+}
+a:hover{
+    color: black;
+}
+#first{
+    margin-left: 20px;
+}
+#second{
+    margin-left: 480px;
+    margin-right: 450px;
+    font-size: 25px;
+    font-family:tahoma;
+    font-weight: 600;
+}
+span{
+    color: rgb(67, 184, 67);
+}
+#search{
+    margin-left: 5px;
+}
+#third{
+    margin-left: 0px;
+}
+.content{
+    text-align: center;   
+}
+.content a{
+   margin-left: 18px;
+   display: inline-block;
+}
+.content a::after{
+    content: ' ';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: black;
+    margin: auto;
+    transition: 0.5s;
+    transition-property: inherit;
+}
+.content a:hover::after{
+    width: 100%;
+}
+.mid{
+    text-align: center;
+    font-size: 35px;
+    line-height: 0.8;
+    margin-top: 30px;
+}
+.mid .text{
+    color: rgb(95, 94, 94);
+    font-size: 17px;
+    margin-top: 70px;
+}
+.table{
+    text-align: center;
+    margin-left: 150px;
+    line-height: 0.8;
+}
+.table .digit{
+    font-size: 30px;
+    color: rgb(63, 121, 121);
+}
+.table .detail{
+    color: rgb(61, 61, 61);
+}
+table,tr,td{
+    text-align: center;
+    border: 1px solid rgb(231, 230, 230);
+    padding: 20px 150px;
+    box-shadow: 0px 4px 5px rgb(231, 230, 230);
+}
+#footer{
+    display: flex;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+}
+#product{
+    width: 1px;
+    height: 600px;
+    position: absolute;
+    background-color: rgb(236, 233, 233);
+    left: 52%;
+    margin: 10px 0px;
+}
+.card-body .card-title{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.card-body .card-title:hover{
+    text-decoration: underline;
+    color: rgb(18, 80, 38);
+}
+#first p{
+    line-height: 1.2;
+}
+#first .card-text{
+    color: black;
+    line-height: 1.5;
+}
+.ft{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.ft1{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.card #icon i{
+    border: 1px solid gray;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 50%;
+}
+.card-body p{
+    line-height: 0.3;
+}
+.card-body a:hover{
+   text-decoration:underline
+}
+.card-body .card-text a:hover{
+    text-decoration:underline
+ }
+.card-body .card-text{
+    color: rgb(60, 146, 146);
+}
